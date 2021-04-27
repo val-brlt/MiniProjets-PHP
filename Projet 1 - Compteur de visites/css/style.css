@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    background-color: rgb(167, 167, 167);
+}
+
+@font-face {
+    font-family: 'aaarghnormal';
+    src: url('../fonts/Aaargh-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.txt h1,
+.txt h3 {
+    font-family: 'aaarghnormal', 'sans-serif';
+}
+
+.counter_box {
+    width: 400px;
+    height: 60px;
+    background-color: rgb(105, 105, 105);
+    border: 2px solid rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 40px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="submit"] {
+    text-decoration: none;
+    width: 200px;
+    height: 80px;
+    border-radius: 20px;
+    border: 2px solid rgb(54, 54, 54);
+    background-color: rgb(100, 100, 100);
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(185, 183, 183);
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_counter {
+    margin-top: 40px;
+}

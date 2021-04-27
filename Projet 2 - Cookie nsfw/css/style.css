@@ -1,0 +1,44 @@
+body{
+    padding:0;
+    margin: 0;
+}
+.container{
+    background-color:#4834d4 ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: #4834d4;
+}
+
+h1 {
+    color: #e056fd;
+    font-size: 40px;
+}
+
+.elem2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4834d4;
+}
+
+.popup {
+    width: 500px;
+    height: 300px;
+    background-color: #be2edd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px dashed #e056fd;
+}

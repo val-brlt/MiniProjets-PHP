@@ -1,0 +1,37 @@
+.container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 15px;
+    padding: 20px 15px 20px 40px;
+}
+ul {
+    padding : 0 10px 0 10px;
+}
+.container_elem {
+    flex-wrap: wrap;
+    margin-right: 30px;
+    width: 80%;
+    text-align: justify;
+}
+
+.container_price {
+    width: 20%;
+    font-size: 35px;
+
+}
+
+.container:hover {
+    background-color: #dfe6e9;
+}
+
+h2,h1 {
+    text-align: center;
+}
+
+@media all and (max-width: 411px) {
+    .container_price {
+        font-size: 20px;
+    }
+}
